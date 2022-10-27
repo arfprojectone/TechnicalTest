@@ -16,7 +16,7 @@ public class JSONSchema {
 
 		given().when().get().then().assertThat()
 				.body(JsonSchemaValidator
-				.matchesJsonSchema(new File("/Users/arf95/eclipse-workspace/TestStockbit/schema.json")))
+				.matchesJsonSchema(new File("/Users/arf95/eclipse-workspace/TechnicalTest/schema.json")))
 				.statusCode(200);
 	}
 }
