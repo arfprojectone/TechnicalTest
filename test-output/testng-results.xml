@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="51051" started-at="2022-10-27T17:12:51Z" finished-at="2022-10-27T17:13:42Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:StepDefinitions.TestRunner@79be0360]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="51051" started-at="2022-10-27T17:12:51Z" finished-at="2022-10-27T17:13:42Z">
+      <class name="StepDefinitions.TestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:StepDefinitions.TestRunner@79be0360]" name="setUpClass" is-config="true" duration-ms="522" started-at="2022-10-27T17:12:51Z" finished-at="2022-10-27T17:12:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4052c8c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:StepDefinitions.TestRunner@79be0360]" name="runScenario" duration-ms="23698" started-at="2022-10-27T17:12:51Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-27T17:13:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User see No rows found"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:StepDefinitions.TestRunner@79be0360]" name="runScenario" duration-ms="14944" started-at="2022-10-27T17:13:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-27T17:13:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User see Git Pocket Guide"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:StepDefinitions.TestRunner@79be0360]" name="runScenario" duration-ms="11842" started-at="2022-10-27T17:13:30Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-27T17:13:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Success Input all select menu"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["All Select Menu"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:StepDefinitions.TestRunner@79be0360]" name="tearDownClass" is-config="true" duration-ms="27" started-at="2022-10-27T17:13:42Z" finished-at="2022-10-27T17:13:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- StepDefinitions.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
